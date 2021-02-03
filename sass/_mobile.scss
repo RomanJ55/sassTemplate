@@ -14,6 +14,10 @@
     margin: 0 8%;
   }
 
+  .glass {
+    backdrop-filter: none;
+  }
+
   .hero .flex {
     flex-direction: column;
     align-items: flex-start;
