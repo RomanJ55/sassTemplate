@@ -1,6 +1,6 @@
 # Just a simple Sass Template
 
-# Includes
+# Includes:
 
     - Header with Navigation
     - Hero section
