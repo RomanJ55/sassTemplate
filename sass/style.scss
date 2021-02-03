@@ -24,7 +24,7 @@ header {
           a {
             color: $light-color;
             font-weight: 600;
-            font-size: 1em;
+            font-size: 1.1em;
             border-bottom: 3px solid transparent;
             &:hover {
               border-bottom: 3px solid $light-color;
@@ -45,7 +45,7 @@ header .container {
 }
 
 .hero {
-  height: 90vh;
+  height: 95vh;
   overflow: hidden;
   background: url("https://images.unsplash.com/photo-1490358930084-2d26f21dc211?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80")
     no-repeat fixed center center;
@@ -56,7 +56,7 @@ header .container {
   }
 
   .heading {
-    width: 50%;
+    flex: 1;
     h1 {
       font-size: 5em;
       font-weight: bold;
@@ -71,6 +71,22 @@ header .container {
 
     button {
       margin-top: 1.5em;
+    }
+  }
+  .cards {
+    flex: 1;
+    .card {
+      box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.2);
+      margin: 2em 0;
+
+      h2 {
+        font-size: 2em;
+        font-weight: bold;
+      }
+      p {
+        font-size: 1em;
+        margin: 2em 0;
+      }
     }
   }
 }
@@ -93,7 +109,7 @@ footer {
         a {
           color: $light-color;
           font-weight: 600;
-          font-size: 1em;
+          font-size: 1.05em;
           border-bottom: 3px solid transparent;
           &:hover {
             border-bottom: 3px solid $light-color;
