@@ -1,9 +1,9 @@
 // font
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-$font-stack: "Lato";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+$font-stack: "Lato", sans-serif;
 
 // colors
-$primary-color: #f73859;
+$primary-color: #ff1139;
 $secondary-color: #7ac7c4;
-$dark-color: #384259;
-$light-color: #c4edde;
+$dark-color: #2a3142;
+$light-color: #f7f7f7;

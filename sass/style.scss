@@ -1,7 +1,6 @@
 @import "config";
 @import "base";
 @import "utils";
-@import "mobile";
 
 header {
   background-color: $primary-color;
@@ -33,13 +32,13 @@ header .container {
 
 .hero {
   height: 90vh;
-
   .heading.flex {
     flex-direction: column;
     align-items: flex-start;
   }
 
   .heading {
+    width: 50%;
     h1 {
       font-size: 5em;
       font-weight: bold;
@@ -48,8 +47,8 @@ header .container {
     p {
       max-width: 80%;
       font-size: 1.2em;
-      line-height: 1.5em;
-      padding-top: 1em;
+      line-height: 1.8em;
+      padding-top: 0.5em;
     }
 
     button {
@@ -58,8 +57,9 @@ header .container {
   }
 
   img {
-    width: 40%;
+    width: 50%;
     border-radius: 10%;
+    margin: 3em 0;
   }
 }
 
@@ -103,3 +103,5 @@ footer .flex {
 footer .container {
   overflow: hidden;
 }
+
+@import "mobile";
