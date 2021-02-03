@@ -6,15 +6,24 @@ header {
   background-color: $primary-color;
   color: $light-color;
   padding: 0.5em 0;
-  nav {
-    ul {
-      li {
-        padding-left: 5em;
-        a {
-          color: $light-color;
-          font-weight: 600;
-          &:hover {
-            border-bottom: 2px solid $dark-color;
+
+  .navigation {
+    h1 {
+      font-weight: bold;
+      font-size: 2em;
+    }
+
+    nav {
+      ul {
+        li {
+          padding-left: 5em;
+          a {
+            color: $light-color;
+            font-weight: 600;
+            font-size: 1em;
+            &:hover {
+              color: $dark-color;
+            }
           }
         }
       }
@@ -86,10 +95,9 @@ footer {
     a {
       padding: 0.5em 0.7em;
       color: $light-color;
-      transition: all 0.4s;
+      transition: 0.4s;
 
       &:hover {
-        transform: scale(1.05);
         transform: translateY(-3px);
       }
     }
