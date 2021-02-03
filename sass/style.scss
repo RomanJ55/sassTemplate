@@ -6,14 +6,11 @@
 header {
   background-color: $primary-color;
   color: $light-color;
-  height: 60px;
-  h1 {
-    padding: 10px 0;
-  }
+  padding: 0.5em 0;
   nav {
     ul {
       li {
-        padding-left: 50px;
+        padding-left: 5em;
         a {
           color: $light-color;
           font-weight: 600;
@@ -35,7 +32,7 @@ header .container {
 }
 
 .hero {
-  height: 100vh;
+  height: 90vh;
 
   .heading.flex {
     flex-direction: column;
@@ -44,18 +41,19 @@ header .container {
 
   .heading {
     h1 {
-      font-size: 60px;
+      font-size: 5em;
       font-weight: bold;
     }
 
     p {
-      max-width: 400px;
-      line-height: 24px;
-      padding-top: 15px;
+      max-width: 80%;
+      font-size: 1.2em;
+      line-height: 1.5em;
+      padding-top: 1em;
     }
 
     button {
-      margin-top: 20px;
+      margin-top: 1.5em;
     }
   }
 
@@ -65,18 +63,14 @@ header .container {
   }
 }
 
-.hero .flex {
-  justify-content: space-between;
-}
-
 footer {
   background-color: $primary-color;
   color: $light-color;
-  padding: 20px 0;
+  padding: 1em 0;
   nav {
     ul {
       li {
-        padding-left: 20px;
+        padding-left: 2em;
         a {
           color: $light-color;
           font-weight: 600;
@@ -90,7 +84,7 @@ footer {
 
   .social {
     a {
-      padding: 5px 10px;
+      padding: 0.5em 0.7em;
       color: $light-color;
       transition: all 0.4s;
 
