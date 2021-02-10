@@ -11,7 +11,7 @@
     font-size: 0.9em;
   }
   .container {
-    margin: 0 8%;
+    margin: 0 6%;
   }
 
   .glass {
@@ -61,6 +61,14 @@
   footer {
     nav .flex {
       flex-direction: column;
+    }
+
+    nav ul li {
+      padding: 0;
+    }
+
+    .title {
+      width: 33%;
     }
 
     .social {
