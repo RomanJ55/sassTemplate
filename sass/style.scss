@@ -33,6 +33,9 @@ header {
               border-bottom: 3px solid $light-color;
             }
           }
+          &:first-child {
+            padding: 0;
+          }
         }
       }
     }
@@ -74,6 +77,17 @@ header .container {
 
     button {
       margin-top: 1.5em;
+      font-weight: bold;
+
+      i {
+        margin-left: 0.5em;
+      }
+
+      &:hover {
+        background-color: $light-color;
+        color: $primary-color;
+        transform: translateY(0.5em);
+      }
     }
   }
   .cards {
@@ -115,7 +129,7 @@ footer {
   nav {
     ul {
       li {
-        padding-left: 2em;
+        padding-left: 4.5em;
         a {
           color: $light-color;
           font-weight: 600;
@@ -124,6 +138,10 @@ footer {
           &:hover {
             border-bottom: 3px solid $light-color;
           }
+        }
+
+        &:first-child {
+          padding: 0;
         }
       }
     }
